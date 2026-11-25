@@ -14,7 +14,8 @@ window.FRONT_DESK_CONFIG = {
   // https://buy.stripe.com/... address here. A plan's "subscribe now by card" link only appears once its value is set.
   stripeLinks: {
     afterHours: "https://buy.stripe.com/28E5kFei45PO5xwfycdQQ04",   // After Hours plan, R999 a month
-    frontDesk: "https://buy.stripe.com/7sY00l6PC1zy3pobhWdQQ05"     // Front Desk plan, R1,999 a month
+    frontDesk: "https://buy.stripe.com/7sY00l6PC1zy3pobhWdQQ05",    // Front Desk plan, R1,999 a month
+    multiBranch: "https://buy.stripe.com/6oU6oJ1vifqo1hgfycdQQ06"   // Multi-branch plan, R3,999 a month
   },
 
   // Where the voice demo backend lives. Leave empty when the backend serves this site itself
