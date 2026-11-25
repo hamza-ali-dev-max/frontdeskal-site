@@ -10,6 +10,13 @@ window.FRONT_DESK_CONFIG = {
   // The live demo line that visitors can call. Voice only. Shown in the header and in the "Talk to it yourself" section.
   demoLine: "+27872500978",
 
+  // Stripe Payment Links, one per plan. Create them in the Stripe dashboard (Payment Links) and paste the
+  // https://buy.stripe.com/... address here. A plan's "subscribe now by card" link only appears once its value is set.
+  stripeLinks: {
+    afterHours: "",   // After Hours plan, R999 a month
+    frontDesk: ""     // Front Desk plan, R1,999 a month
+  },
+
   // Where the voice demo backend lives. Leave empty when the backend serves this site itself
   // (Docker or "npm start"). On Netlify or Vercel this is filled in at build time from PUBLIC_API_BASE.
   apiBase: "",
